@@ -1,0 +1,25 @@
+{
+  "name": "cypress-training",
+  "version": "1.0.0",
+  "description": "This is a Workshop about Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juan-dev123/cypress-excercise.git"
+  },
+  "keywords": [
+    "ui-testing",
+    "dojo",
+    "practice",
+    "cypress"
+  ],
+  "author": "Juan Pablo Ramos Torres []\u001b[Dtrabajosjuan2@gmail.com\u001b[C\u001b[D]",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Juan-dev123/cypress-excercise/issues"
+  },
+  "homepage": "https://github.com/Juan-dev123/cypress-excercise#readme"
+}
