@@ -10,6 +10,8 @@ export default defineConfig({
       // config.defaultCommandTimeout = 10000
 
       // IMPORTANT return the updated config object
+      config.video = false;
+      config.screenshotOnRunFailure = false;
       return config;
     },
   },
