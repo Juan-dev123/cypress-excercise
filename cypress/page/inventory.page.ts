@@ -144,6 +144,11 @@ class InventoryPage {
     public getShopingCartNumItems(){
         return cy.get(this.shoppingCart.numOfItems);
     }
+
+    public goToAProduct(productName: string){
+        let itemName = this.getItemNameByName(productName);
+        cy.get((this.products as any)[itemName]).click();
+    }
 }
 
 export {InventoryPage}
